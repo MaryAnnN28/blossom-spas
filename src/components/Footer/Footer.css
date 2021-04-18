@@ -1,0 +1,6 @@
+.footer-container {
+  width: 100%; 
+  overflow: hidden;
+  height: 200px; 
+  background-color:  rgb(7, 0, 6);
+}

@@ -1,15 +1,15 @@
-import Logo from './Images/BlossomSpas.png'
 import './App.css';
 import NavbarContainer from './components/Navbar/NavbarContainer'
+import HomePage from './components/HomePage/HomePage'
 import FooterContainer from './components/Footer/FooterContainer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={Logo} className="App-logo" alt="logo" />
       
         <NavbarContainer />
+        <HomePage />
         <FooterContainer />
        
       </header>

@@ -1,8 +1,9 @@
 import React from 'react'
+import './Footer.css'
 
 const FooterContainer = () => {
   return (
-    <div className="navbar-container">
+    <div className="footer-container">
       Footer Container
     </div>
   )
