@@ -1,5 +1,7 @@
 import Logo from './Images/BlossomSpas.png'
 import './App.css';
+import NavbarContainer from './components/Navbar/NavbarContainer'
+import FooterContainer from './components/Footer/FooterContainer';
 
 function App() {
   return (
@@ -7,6 +9,8 @@ function App() {
       <header className="App-header">
         <img src={Logo} className="App-logo" alt="logo" />
       
+        <NavbarContainer />
+        <FooterContainer />
        
       </header>
     </div>
