@@ -3,4 +3,26 @@
   overflow: hidden;
   height: 200px; 
   background-color:  rgb(7, 0, 6);
+  padding-top: 60px;
+}
+
+.footer-left {
+  width: 33%; 
+  float: left;
+}
+p.footer-hours {
+  color: #efefef; 
+}
+
+.footer-center {
+  width: 33%; 
+  float:right;
+}
+
+.footer-right {
+  width: 33%; 
+  float: right;
+}
+p.footer-address {
+  color: #efefef;
 }
