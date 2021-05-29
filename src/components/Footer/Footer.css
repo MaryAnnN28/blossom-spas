@@ -1,9 +1,11 @@
 .footer-container {
   width: 100%; 
   overflow: hidden;
-  height: 200px; 
-  background-color:  rgb(7, 0, 6);
-  padding-top: 60px;
+  height: 90px; 
+  background-color: rgba(7, 0, 6, 0.356);
+  padding-top: 20px;
+  bottom: 0; 
+  position: fixed; 
 }
 
 .footer-left {
@@ -11,7 +13,8 @@
   float: left;
 }
 p.footer-hours {
-  color: #efefef; 
+  color: #dfdfdf; 
+  font-size: 12px;
 }
 
 .footer-center {
@@ -24,5 +27,6 @@ p.footer-hours {
   float: right;
 }
 p.footer-address {
-  color: #efefef;
+  color: #dfdfdf;
+  font-size: 12px;
 }

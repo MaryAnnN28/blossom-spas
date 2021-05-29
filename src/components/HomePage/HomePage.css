@@ -1,6 +1,18 @@
-.homepage-container {
-  display: flex; 
-  height: 800px; 
-  justify-content: center;
-  margin: 20px;
+
+
+.homepage-textbox {
+  position: absolute; 
+  top: 40%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+
+.main-header {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(94, 93, 93, 0.219); 
+  text-transform: uppercase;
+  letter-spacing: 2.5rem;
 }

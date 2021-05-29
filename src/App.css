@@ -3,29 +3,17 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Lato', sans-serif; 
   box-sizing: border-box; 
   margin: 0; 
 }
 
-/* .App-logo {
-  height: 30vmin;
-  pointer-events: none;
+body {
+  height: 100vh; 
+  background-image: linear-gradient(
+    to right bottom, 
+    #b2f8f8de, 
+    #f3acd6b7, 
+    #ecdec8de), 
+    url('./Images/blossom2-flower.jpeg');
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
