@@ -9,7 +9,7 @@ const NavbarContainer = () => {
       <div className="navbar">
         <div className="navbar-logo">
           {/* <img src={Logo} className="logo-img" alt="logo" /> */}
-          <BiSpa />
+          <BiSpa size="50px" style={{ color: '#dfdfdf'}}/>
         </div>
         <div className="navbar-links">
           <a href="www.google.com">HOME</a>
