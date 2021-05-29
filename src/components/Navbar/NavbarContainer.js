@@ -1,6 +1,7 @@
-import React from 'react'
-import './Navbar.css'
-import Logo from '../../Images/BlossomSpas.png'
+import React from 'react';
+import './Navbar.css';
+import Logo from '../../Images/BlossomSpas.png';
+import { BiSpa } from 'react-icons/bi';
 
 const NavbarContainer = () => {
   return (
@@ -8,7 +9,7 @@ const NavbarContainer = () => {
       <div className="navbar">
         <div className="navbar-logo">
           {/* <img src={Logo} className="logo-img" alt="logo" /> */}
-          <h2 className="navbar-logo">Blossom Spas</h2>
+          <BiSpa />
         </div>
         <div className="navbar-links">
           <a href="www.google.com">HOME</a>
