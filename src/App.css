@@ -14,5 +14,7 @@ body {
     #b2f8f8de, 
     #fccde8b7, 
     #ecdec8de), 
-    url('./Images/blossom2-flower.jpeg') no-repeat fixed center;
+    url('./Images/blossom2-flower.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

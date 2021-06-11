@@ -32,6 +32,7 @@ h2.navbar-logo {
 .navbar-links {
   float: right;
   width: 70%;
+  margin-left: 20rem; 
   justify-content: center;
   text-align: center;
 }
