@@ -2,6 +2,7 @@
 
 .homepage-textbox {
   position: absolute; 
+  display: flex;
   top: 40%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
@@ -9,7 +10,7 @@
 }
 
 .main-header {
-  display: block;
+  display: flex;
   font-size: 3rem;
   font-weight: 700;
   color: rgba(94, 93, 93, 0.219); 
