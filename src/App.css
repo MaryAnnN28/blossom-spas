@@ -9,11 +9,10 @@
 }
 
 body {
-  height: 100vh; 
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right bottom, 
     #b2f8f8de, 
     #fccde8b7, 
     #ecdec8de), 
-    url('./Images/blossom2-flower.jpeg');
+    url('./Images/blossom2-flower.jpeg') no-repeat fixed center;
 }

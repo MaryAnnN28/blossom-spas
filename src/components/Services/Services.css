@@ -1,0 +1,12 @@
+.services-container {
+	margin-top: 10em;
+	margin-bottom: 10em;  
+}
+
+.services-header {
+	font-size: 22pt;
+	color: #4e4e4e; 
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 5em;
+}
