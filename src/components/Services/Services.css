@@ -1,6 +1,7 @@
 .services-container {
-	margin-top: 10em;
-	margin-bottom: 10em;  
+	height: 90vh; 
+	margin-top: 5em;
+	margin-bottom: 5em;  
 }
 
 .services-header {
@@ -8,5 +9,52 @@
 	color: #4e4e4e; 
 	font-weight: 500;
 	text-transform: uppercase;
-	margin-bottom: 5em;
+	margin-bottom: 1em;
 }
+
+.nails-content {
+	width: 350px; 
+	height: 500px; 
+	display: inline-flex; 
+	columns: 2 300px; 
+	background-color: rgba(165, 146, 162, 0.65);
+	padding-top: 2em; 
+}
+
+.nails-header {
+	margin-bottom: 1.5em; 
+	display: inline-flex;
+}
+
+.column {
+	flex: 55%; 
+	padding: 0px; 
+	display: inline-flex;
+}
+
+ul.nails-menu {
+	list-style: none;
+	display: inline-flex; 
+}
+
+.nails-menu > li {
+	display: flex;
+	margin: 0px 0px; 
+}
+
+.nails-menu > li > .key {
+	width: 250px; 
+	color: #4e4e4e; 
+	text-align: left;
+	padding-right: 0px; 
+	padding-left: 0px;
+}
+
+.nails-menu > li > .value {
+	width: 50px; 
+	text-align: left;
+	padding-right: 0px; 
+	padding-left: 5px;
+	color: #4e4e4e; 
+}
+

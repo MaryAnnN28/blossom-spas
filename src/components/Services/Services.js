@@ -10,11 +10,27 @@ const Services = () => {
 			</div>
 
 			<div className="services-content">
-				<div className="nails-header">
-					<h3>Nail Services</h3>
+				
+				<div className="nails-content">
+					{/*<h3 className="nails-header">Nail Care Services</h3>*/}
+					<div className="column">
+						<ul className="nails-menu">
+							<li>
+								<div className="key">Signature Manicure w/ Color</div>
+								<div className="value">$12</div>
+							</li>
+							<li>
+								<div className="key">Signature Manicure w/ Color</div>
+								<div className="value">$12</div>
+							</li>
+						</ul>
+
+					</div>
 				</div>
 
 			</div>
+
+
 		</div>
 	)
 }

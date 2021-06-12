@@ -5,7 +5,7 @@
   background-color: rgba(7, 0, 6, 0.356);
   padding-top: 20px;
   bottom: 0; 
-  position: fixed; 
+  position: relative; 
 }
 
 .footer-left {
