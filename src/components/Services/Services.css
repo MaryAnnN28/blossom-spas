@@ -13,11 +13,11 @@
 }
 
 .nails-content {
-	width: 350px; 
+	width: 475px; 
 	height: 500px; 
 	display: inline-flex; 
 	columns: 2 300px; 
-	background-color: rgba(165, 146, 162, 0.65);
+	background-color: rgba(68, 63, 68, 0.26);
 	padding-top: 2em; 
 }
 
@@ -34,17 +34,17 @@
 
 ul.nails-menu {
 	list-style: none;
-	display: inline-flex; 
+	display: block; 
 }
 
 .nails-menu > li {
 	display: flex;
-	margin: 0px 0px; 
+	margin: 15px 0px; 
 }
 
 .nails-menu > li > .key {
-	width: 250px; 
-	color: #4e4e4e; 
+	width: 350px; 
+	color: #414040; 
 	text-align: left;
 	padding-right: 0px; 
 	padding-left: 0px;
@@ -54,7 +54,8 @@ ul.nails-menu {
 	width: 50px; 
 	text-align: left;
 	padding-right: 0px; 
-	padding-left: 5px;
-	color: #4e4e4e; 
+	padding-left: 20px;
+	color:#414040; 
+	font-weight: 600;
 }
 
