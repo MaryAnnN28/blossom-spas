@@ -6,15 +6,15 @@ const Services = () => {
 		<div className="services-container">
 			
 			<div className="services-main-header">
-				<h3 className="services-header">Services</h3>
+				<h3 className="services-main-header">Services</h3>
 			</div>
 
 			<div className="services-content">
 				
 				<div className="nails-content">
-					{/*<h3 className="nails-header">Nail Care Services</h3>*/}
 					<div className="column">
 						<ul className="nails-menu">
+						<h3 className="service-header-first">Nail Care Services</h3>
 							<li>
 								<div className="key">Signature Manicure w/ Color</div>
 								<div className="value">$12</div>
@@ -47,11 +47,57 @@ const Services = () => {
 								<div className="key">Manicure and Pedicure Package</div>
 								<div className="value">$35</div>
 							</li>
+
+							<h3 className="service-header">Acrylics & Dip Powder Nail Services</h3>
+							<li>
+								<div className="key">Full Set Acrylics or Dip Powder</div>
+								<div className="value">$25+</div>
+							</li>
+							<li>
+								<div className="key">French Tips</div>
+								<div className="value">$5</div>
+							</li>
+							<li>
+								<div className="key">Acrylic or Dip Powder Fills</div>
+								<div className="value">$20+</div>
+							</li>
+							<li>
+								<div className="key">Full Set Pink & White Acrylics or Dip Powder</div>
+								<div className="value">$45</div>
+							</li>
+						
+						
+							<h3 className="service-header">Nail Design, Enhancements & Polish Changes</h3>
+							<li>
+								<div className="key">Gel Polish Color Change</div>
+								<div className="value">$20</div>
+							</li>
+							<li>
+								<div className="key">Polish Color Change for Hands</div>
+								<div className="value">$8</div>
+							</li>
+							<li>
+								<div className="key">Polish Color Change for Feet</div>
+								<div className="value">$10</div>
+							</li>
+							<li>
+								<div className="key">Nail Design (includes 2 nails)</div>
+								<div className="value">$5+</div>
+							</li>
+							<li>
+								<div className="key">Acrylic Dip Powder or Gel Soak Off</div>
+								<div className="value">$10</div>
+							</li>
+							<li>
+								<div className="key">Nail Repair (includes 1 nail)</div>
+								<div className="value">$3</div>
+							</li>
+
 						</ul>
 
 					</div>
 				</div>
-
+		
 			</div>
 
 
