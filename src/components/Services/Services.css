@@ -1,5 +1,5 @@
 .services-container {
-	height: 150vh; 
+	height: 200vh; 
 	margin-top: 5em;
 	margin-bottom: 5em;  
 }
@@ -13,13 +13,22 @@ h3.services-main-header {
 	margin-bottom: 1em;
 }
 
+.hr-line {
+	width: 60%;
+	height: 3px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	border-top: 3px solid #414040; 
+}
+
 .nails-content {
 	width: 520px; 
-	height: 1000px; 
+	height: 1500px; 
 	display: inline-flex; 
 	columns: 2 300px; 
 	background-color: rgba(68, 63, 68, 0.26);
 	padding-top: 2em; 
+	padding-bottom: 2em; 
 }
 
 .service-header-first {

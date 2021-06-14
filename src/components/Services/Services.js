@@ -48,6 +48,8 @@ const Services = () => {
 								<div className="value">$35</div>
 							</li>
 
+							<hr className="hr-line"></hr>
+
 							<h3 className="service-header">Acrylics & Dip Powder Nail Services</h3>
 							<li>
 								<div className="key">Full Set Acrylics or Dip Powder</div>
@@ -91,6 +93,62 @@ const Services = () => {
 							<li>
 								<div className="key">Nail Repair (includes 1 nail)</div>
 								<div className="value">$3</div>
+							</li>
+
+
+
+							<h3 className="service-header">Waxing Services</h3>
+							<li>
+								<div className="key">Full Face</div>
+								<div className="value">$25</div>
+							</li>
+							<li>
+								<div className="key">Lip or Chin</div>
+								<div className="value">$5</div>
+							</li>
+							<li>
+								<div className="key">Eyebrows</div>
+								<div className="value">$8</div>
+							</li>
+							<li>
+								<div className="key">Underarm</div>
+								<div className="value">$15</div>
+							</li>
+							<li>
+								<div className="key">Half Arm</div>
+								<div className="value">$25</div>
+							</li>
+							<li>
+								<div className="key">Full Arm</div>
+								<div className="value">$50</div>
+							</li>
+							<li>
+								<div className="key">Half Leg</div>
+								<div className="value">$30</div>
+							</li>
+							<li>
+								<div className="key">Full Leg</div>
+								<div className="value">$60</div>
+							</li>
+							<li>
+								<div className="key">Full Back</div>
+								<div className="value">$60</div>
+							</li>
+							<li>
+								<div className="key">Full Chest</div>
+								<div className="value">$50</div>
+							</li>
+							<li>
+								<div className="key">Bikini Line</div>
+								<div className="value">$35</div>
+							</li>
+							<li>
+								<div className="key">Brazilian</div>
+								<div className="value">$60</div>
+							</li>
+							<li>
+								<div className="key">Brazilian Clean Up</div>
+								<div className="value">$25</div>
 							</li>
 
 						</ul>
